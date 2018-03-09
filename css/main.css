@@ -614,6 +614,14 @@ body {
     align-self: flex-start
 }
 
+.header-content .phone {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    width: 55%;
+}
+
 .header-content .email {
     grid-column: 2;
     grid-row: 8;
@@ -650,6 +658,9 @@ body {
     .header-content h1 {
         font-size: 45px;
     }
+    .header-content .phone {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width:1448px) {
@@ -672,15 +683,12 @@ body {
         z-index: 1;
         color: #fff
     }
-
     .header-content h1 {
         font-size: 45px
     }
-
     .main {
         background-image: url(../img/2-header.jpg);
     }
-
     .header-content .logo-text {
         grid-column: 1/2;
         justify-self: center;
@@ -818,18 +826,18 @@ body {
         z-index: 1;
         color: #fff
     }
-
+    .header-content .phone {
+        grid-column: 2/3;
+    }
     .header-content .item {
         height: 46px;
         width: 100%;
         font-size: 15px;
     }
-
     .header-content .logo-text {
         grid-column: 1/2;
         justify-self: center;
     }
-
     .header-content .land {
         margin-top: 50px;
         grid-column: 1/5;
@@ -902,21 +910,17 @@ body {
         z-index: 1;
         color: #fff
     }
-
     .header-content h1 {
         font-size: 35px
     }
-
     .header-content .item {
         height: 40px;
         width: 200px;
     }
-
     .header-content .logo-text {
         grid-column: 1/2;
         justify-self: center;
     }
-
     .header-content .land {
         margin-top: 50px;
         grid-column: 1/3;
@@ -1005,7 +1009,6 @@ body {
     .header-content .item {
         width: 175px;
     }
-
     .header-content .email {
         width: 70%;
     }
@@ -1021,7 +1024,6 @@ body {
     .header-content h1 {
         font-size: 17px;
     }
-
     .header-content .logo-text {
         height: 40px;
         width: 50%;
@@ -1034,78 +1036,84 @@ body {
         font-size: 17px;
         text-align: center;
     }
-
     .header-content {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(13, 1fr);
+        grid-template-rows: repeat(14, 1fr);
         grid-gap: 0;
         z-index: 1;
         color: #fff
     }
-
     .header-content .item {
         width: 75%;
     }
-    .header-content .land {
-        margin-top: 50px;
-        grid-column: 1/2;
+    .header-content .phone {
+        grid-column: 1;
         grid-row: 2;
+        width: 50%;
+        font-size: 12px;
+        align-self: flex-start;
+    }
+    .header-content .land {
+        margin-top: 0;
+        grid-column: 1/2;
+        grid-row: 3;
+        align-self: flex-start;
     }
     .header-content .shop {
         grid-column: 1/2;
-        grid-row: 3;
+        grid-row: 4;
     }
     .header-content .html {
         grid-column: 1/2;
-        grid-row: 4;
+        grid-row: 5;
     }
     .header-content .css {
         grid-column: 1/2;
-        grid-row: 5;
+        grid-row: 6;
     }
     .header-content .js {
         grid-column: 1/2;
-        grid-row: 6;
+        grid-row: 7;
     }
     .header-content .seo {
         grid-column: 1/2;
-        grid-row: 7;
+        grid-row: 8;
     }
     .header-content .smm {
         grid-column: 1/2;
-        grid-row: 8;
+        grid-row: 9;
     }
     .header-content .joomla {
         grid-column: 1/2;
-        grid-row: 9;
+        grid-row: 10;
     }
     .header-content .opencart {
         grid-column: 1/2;
-        grid-row: 10;
+        grid-row: 11;
     }
     .header-content .t-email {
         grid-column: 1/3;
-        grid-row: 11;
+        grid-row: 12;
     }
     .header-content .t-skype {
         grid-column: 1/3;
-        grid-row: 12;
+        grid-row: 13;
     }
     .header-content .t-telegram {
         grid-column: 1/3;
-        grid-row: 13;
+        grid-row: 14;
     }
     .header-content .email {
         grid-column: 1/3;
-        grid-row: 11;
+        grid-row: 12;
     }
     .header-content .skype {
         grid-column: 1/3;
-        grid-row: 12;
+        grid-row: 13;
     }
     .header-content .telegram {
         grid-column: 1/3;
-        grid-row: 13;
+        grid-row: 14;
     }
 }
 
