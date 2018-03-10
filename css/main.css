@@ -1001,7 +1001,8 @@ body {
 
 @media only screen and (max-width:530px) {
     .header-content h1 {
-        font-size: 20px
+        font-size: 22px;
+        text-align: center;
     }
 }
 
@@ -1021,9 +1022,6 @@ body {
 }
 
 @media only screen and (max-width:460px) {
-    .header-content h1 {
-        font-size: 17px;
-    }
     .header-content .logo-text {
         height: 40px;
         width: 50%;
@@ -1032,10 +1030,6 @@ body {
 }
 
 @media only screen and (max-width:390px) {
-    .header-content h1 {
-        font-size: 17px;
-        text-align: center;
-    }
     .header-content {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(14, 1fr);
