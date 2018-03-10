@@ -1010,6 +1010,16 @@ body {
     .header-content .item {
         width: 175px;
     }
+    .header-content .logo-text {
+        height: 30%;
+        width: 55%;
+        font-size: 10px;
+    }
+    .header-content .phone {
+        height: 35%;
+        width: 90%;
+        font-size: 15px;
+    }
     .header-content .email {
         width: 70%;
     }
@@ -1019,15 +1029,6 @@ body {
     .header-content .telegram {
         width: 70%;
     }
-}
-
-@media only screen and (max-width:460px) {
-    .header-content .logo-text {
-        height: 80px;
-        width: 75%;
-        font-size: 7px;
-    }
-
 }
 
 @media only screen and (max-width:390px) {
@@ -1041,11 +1042,16 @@ body {
     .header-content .item {
         width: 75%;
     }
+    .header-content .logo-text {
+        height: 35%;
+        width: 50%;
+        font-size: 12px;
+    }
     .header-content .phone {
         grid-column: 1;
         grid-row: 2;
-        width: 50%;
-        font-size: 12px;
+        width: 75%;
+        font-size: 15px;
         align-self: flex-start;
     }
     .header-content .land {
