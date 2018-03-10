@@ -1023,10 +1023,11 @@ body {
 
 @media only screen and (max-width:460px) {
     .header-content .logo-text {
-        height: 40px;
+        height: 80px;
         width: 75%;
         font-size: 7px;
     }
+
 }
 
 @media only screen and (max-width:390px) {
